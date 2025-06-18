@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Badeen+Display&family=Bebas+Neue&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(246, 248, 255);
+}
+
+main {
+    width: 680px;
+    height: 530px;
+    margin-bottom: 26px;
+}
+
+.user_img {
+    height: 20px;
+    width: 20px;
+
+}
+
+#top {
+    height: 25px;
+
+    display: flex;
+    align-items: center;
+    gap: 475px;
+
+
+
+}
+
+#h1 {
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+
+}
+
+#dark_mode {
+    font-family: Space Mono;
+    color: rgb(63, 87, 125);
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+#drk_p {
+    display: flex;
+    align-items: center;
+}
+
+form {
+
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-top: 40px;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 0px 0px 20px 0px rgb(218, 223, 239);
+
+}
+
+.search_but {
+    height: 45px;
+    width: 100px;
+    font-family: Space Mono;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 121, 255);
+    color: white;
+    font-weight: 600;
+}
+
+input {
+    width: 504px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+
+
+}
+
+.div_srch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input::placeholder {
+    color: rgb(75, 106, 155);
+    font-family: Space Mono;
+}
+
+#info {
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 40px;
+    height: 384px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0px 0px 20px 0px rgb(218, 223, 239);
+    display: flex;
+
+}
+
+#profile_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgb(231, 238, 248);
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+
+#data_div {
+    width: 510px;
+    margin-left: 30px;
+}
+
+.min_data_div {
+    display: flex;
+    padding-left: 30px;
+    border-radius: 10px;
+    width: 430px;
+    height: 85px;
+    background-color: rgb(246, 248, 255);
+    margin-top: 25px;
+}
+
+.mn_dv {
+    width: 150px;
+    margin-top: 15px;
+
+}
+
+#user_p {
+    margin: 0px;
+    font-size: 25px;
+    color: rgb(48, 48, 48);
+    font-family: Space Mono;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+#username_p {
+    font-family: Space Mono;
+    color: rgb(30, 113, 207);
+    margin: 0px;
+    font-size: 16px;
+
+}
+
+#bio_p {
+    font-family: Space Mono;
+    color: rgb(123, 154, 179);
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.info_p {
+    font-family: Space Mono;
+    font-size: 14px;
+    color: rgb(49, 88, 123);
+    margin: 0px;
+}
+
+.number_info_p {
+    margin: 0px;
+    font-family: Space Mono;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#dv_d1 {
+    margin-top: 20px;
+    position: relative;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+
+}
+
+#dv_d2 {
+    margin-top: 10px;
+    position: relative;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 47px;
+
+}
+
+#location_P1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Space Mono;
+    font-size: 15px;
+    color: rgb(48, 108, 160);
+}
+
+#location_P2 {
+    position: absolute;
+    left: 247px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Space Mono;
+    font-size: 15px;
+    color: rgb(48, 108, 160);
+}
+
+#location_P3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Space Mono;
+    font-size: 15px;
+    color: rgb(48, 108, 160);
+
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(48, 108, 160);
+
+}
+
+#location_P4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Space Mono;
+    font-size: 15px;
+    color: rgb(48, 108, 160);
+    position: absolute;
+    left: 250px;
+
+}
+
+#join_p {
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    font-family: Space Mono;
+    font-size: 14px;
+    color: rgb(48, 108, 160);
+}
+
+#ntf_p {
+    color: rgb(234, 55, 55);
+    font-family: Space Mono;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 20px;
+
+}
+
+#no_fouund_div {
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 40px;
+    height: 205px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgb(218, 223, 239);
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+
+}
+
+.darkb #no_fouund_div {
+    background-color: rgb(30, 42, 71);
+    box-shadow: none;
+    border: rgb(30, 42, 71);
+}
+
+.darkb #no_fouund_div p {
+    color: rgb(144, 164, 212);
+}
+
+#no_fouund_div h1 {
+    margin: 0px;
+    font-family: Space Mono;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 55px;
+    font-weight: 600;
+
+}
+
+.darkb #no_fouund_div h1 {
+    color: white;
+}
+
+#no_fouund_div p {
+
+    font-family: Space Mono;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(105, 124, 154);
+
+
+}
+
+#no_fouund_div div {
+    margin: 0px;
+    width: 85%;
+}
+
+
+
+
+
+
+
+.darkb {
+    background-color: rgb(20, 29, 47);
+
+}
+
+.darkb #top {
+    background-color: rgb(20, 29, 47);
+    gap: 470px;
+}
+
+.darkb #h1 {
+    color: white;
+}
+
+.darkb form {
+    background-color: rgb(30, 42, 71);
+    box-shadow: none;
+}
+
+.darkb input {
+    background-color: rgb(30, 42, 71);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+/* focus მდგომარეობა */
+.darkb input:focus {
+    background-color: rgb(30, 42, 71);
+    color: white;
+}
+
+.darkb input::placeholder {
+    color: rgb(187, 191, 199);
+    background-color: rgb(30, 42, 71);
+}
+
+.darkb #info {
+    background-color: rgb(30, 42, 71);
+    box-shadow: none;
+    border: rgb(30, 42, 71);
+}
+
+.darkb #user_p {
+    color: white;
+}
+
+.darkb #join_p {
+    color: rgb(234, 234, 234);
+}
+
+.darkb #username_p {
+    color: rgb(78, 150, 231);
+}
+
+.darkb #bio_p {
+    color: rgb(163, 172, 193);
+}
+
+.darkb .min_data_div {
+    background-color: rgb(20, 29, 47);
+}
+
+.darkb .info_p {
+    color: rgb(227, 227, 227);
+}
+
+.darkb .number_info_p {
+    color: white;
+}
+
+.darkb #location_P1 {
+
+    color: rgb(223, 223, 223);
+}
+
+.darkb #location_P2 {
+    color: rgb(223, 223, 223);
+}
+
+.darkb #location_P3 {
+    color: rgb(223, 223, 223);
+}
+
+.darkb #location_P4 {
+    color: rgb(223, 223, 223);
+}
+
+.darkb #dark_mode {
+    color: rgb(144, 164, 212);
+    margin-right: 10px;
+
+
+}
+
+.darkb a {
+    color: rgb(223, 223, 223);
+}
+
+.darkb .user_a:hover {
+    text-decoration: underline;
+}
+
+.user_a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+@media screen and (max-width: 685px) {
+
+    main {
+        border: 1px solid black;
+        width: 340px;
+        height: 700px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+
+    }
+
+
+    #top {
+        height: 25px;
+        display: flex;
+        align-items: center;
+        gap: 138px;
+    }
+    form{
+        margin-top: 15px;
+    }
+    #profile_img{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        right:250px;
+        top: 0px;
+        margin-top: 20px;
+        
+    }
+
+
+    #user_p {
+        margin-left: 110px;
+        margin-top: 15px;
+        font-size: 22px;
+    }
+    #username_p{
+        margin-left: 111px;
+    }
+
+
+    #bio_p{
+        margin-left:20px;
+        margin-top: 40px;
+        font-size: 13;
+        
+
+    }
+
+    input {
+        width: 200px;
+
+    }
+
+    input::placeholder {
+        font-size: 14px;
+    }
+
+    form img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .search_but {
+        height: 40px;
+        width: 75px;
+
+    }
+
+    #info {
+        margin-top: 15px;
+        flex-direction: column;
+        height: 550px;
+        position: relative;
+        margin-left: 0px;
+    }
+
+  
+
+    #join_p {
+        right:57px;
+        top: 70px;
+
+
+    }
+
+    #data_div {
+        margin-left: 0px;
+
+    }
+
+
+    .min_data_div {
+
+        margin-top: 5px;
+
+        flex-direction: column;
+        width: 270px;
+        height:220px;
+        margin-left: 20px;
+
+
+    }
+    #dv_d1{
+        flex-direction: column;
+        align-items:start;
+        justify-content: none;
+
+        width: 270px;
+        height: 70px;
+        margin-left: 20px;
+       
+        
+    }
+    #location_P1{
+        margin: 0px;
+    }
+    #dv_d2{
+        flex-direction: column;
+        align-items:start;
+        justify-content: none;
+
+        width: 270px;
+        height: 80px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    #location_P2{
+        left: 0px;
+        top: 20px;
+        
+
+    }
+     #location_P3{
+        margin: 0px;
+    }
+    #location_P4{
+        left: 0px;
+        top: 20px;
+    }
+    .darkb #top {
+    background-color: rgb(20, 29, 47);
+    gap:125px;
+}
+
+
+
+    
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.darkb input:-webkit-autofill,
+.darkb input:-webkit-autofill:hover,
+.darkb input:-webkit-autofill:focus,
+.darkb input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px rgb(30, 42, 71) inset !important;
+    -webkit-text-fill-color: white !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lightb input:-webkit-autofill,
+.lightb input:-webkit-autofill:hover,
+.lightb input:-webkit-autofill:focus,
+.darkb input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px rgb(255, 255, 255) inset !important;
+    -webkit-text-fill-color: rgb(0, 0, 0) !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
