@@ -51,22 +51,21 @@ const App = () => {
       </section>
       <section id="search">
         {notFound ? (
-          <form onSubmit={handleSubmit}>
+          <form   id="nt_fnd_form"  onSubmit={handleSubmit}>
             <div className="div_srch">
-              <img src="./src/assets/icon-search.svg" />
-              <input style={{ width: "392px" }} type="text" placeholder="Search GitHub username…" name="username" required />
+              <svg height="24" width="25" xmlns="http://www.w3.org/2000/svg"><path d="M10.609 0c5.85 0 10.608 4.746 10.608 10.58 0 2.609-.952 5-2.527 6.847l5.112 5.087a.87.87 0 01-1.227 1.233l-5.118-5.093a10.58 10.58 0 01-6.848 2.505C4.759 21.16 0 16.413 0 10.58 0 4.747 4.76 0 10.609 0zm0 1.74c-4.891 0-8.87 3.965-8.87 8.84 0 4.874 3.979 8.84 8.87 8.84a8.855 8.855 0 006.213-2.537l.04-.047a.881.881 0 01.058-.053 8.786 8.786 0 002.558-6.203c0-4.875-3.979-8.84-8.87-8.84z" fill="#0079ff"/></svg>
+              <input id="not_found_input"  type="text" placeholder="Search GitHub username…" name="username" required />
             </div>
             <p id="ntf_p">No results</p>
 
             <button style={{ cursor: "pointer" }} className="search_but">Search</button>
           </form>
         ) : (
-          <form onSubmit={handleSubmit}>
+          <form  id="#nt_fnd_form " onSubmit={handleSubmit}>
             <div className="div_srch">
-              <img src="./src/assets/icon-search.svg" />
+              <svg height="24" width="25" xmlns="http://www.w3.org/2000/svg"><path d="M10.609 0c5.85 0 10.608 4.746 10.608 10.58 0 2.609-.952 5-2.527 6.847l5.112 5.087a.87.87 0 01-1.227 1.233l-5.118-5.093a10.58 10.58 0 01-6.848 2.505C4.759 21.16 0 16.413 0 10.58 0 4.747 4.76 0 10.609 0zm0 1.74c-4.891 0-8.87 3.965-8.87 8.84 0 4.874 3.979 8.84 8.87 8.84a8.855 8.855 0 006.213-2.537l.04-.047a.881.881 0 01.058-.053 8.786 8.786 0 002.558-6.203c0-4.875-3.979-8.84-8.87-8.84z" fill="#0079ff"/></svg>
               <input type="text" placeholder="Search GitHub username…" name="username" required />
             </div>
-
 
             <button style={{ cursor: "pointer" }} className="search_but">Search</button>
           </form>
@@ -102,7 +101,6 @@ const App = () => {
                 <p className="info_p">Following</p>
                 <p className="number_info_p">{user?.following ?? "0"}</p>
               </div>
-
             </div>
             <div id="dv_d1">
               <p id="location_P1"><svg height="20" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M12.797 3.425C11.584 1.33 9.427.05 7.03.002a7.483 7.483 0 00-.308 0C4.325.05 2.17 1.33.955 3.425a6.963 6.963 0 00-.09 6.88l4.959 9.077.007.012c.218.38.609.606 1.045.606.437 0 .828-.226 1.046-.606l.007-.012 4.96-9.077a6.963 6.963 0 00-.092-6.88zm-5.92 5.638c-1.552 0-2.813-1.262-2.813-2.813s1.261-2.812 2.812-2.812S9.69 4.699 9.69 6.25 8.427 9.063 6.876 9.063z" fill={darkMode ? "white" : "black"} /></svg><span>{user?.location ? user.location : "Not Available"}</span></p>
@@ -118,8 +116,6 @@ const App = () => {
         </section>
       )}
     </main>
-
-
   )
 }
 
