@@ -444,7 +444,6 @@ a {
 @media screen and (max-width: 685px) {
 
     main {
-        border: 1px solid black;
         width: 340px;
         height: 700px;
         margin-top: 20px;
@@ -484,6 +483,7 @@ a {
 
 
     #bio_p{
+        width: 300px;
         margin-left:20px;
         margin-top: 40px;
         font-size: 13;
@@ -514,7 +514,7 @@ a {
     #info {
         margin-top: 15px;
         flex-direction: column;
-        height: 550px;
+        height: 600px;
         position: relative;
         margin-left: 0px;
     }
